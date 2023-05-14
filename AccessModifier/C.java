@@ -1,10 +1,10 @@
 package pack2;
 import pack1.A;
-class C{
+class C extends A{
         public static void main(String[] args) {
-            A a =new A();
-            a.m1();
-            //a.m2();
+            C c =new C();
+            c.m1();
+            c.m2();
             //a.m3();
             //a.m4();
         }
